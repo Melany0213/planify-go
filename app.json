@@ -17,6 +17,7 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
+      "package": "com.melany0213.planifygo",
       "predictiveBackGestureEnabled": false
     },
     "web": {
@@ -36,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b71bce52-7179-4e8f-a4a3-829b79bdcda2"
+      }
+    },
+    "owner": "melcr0213"
   }
 }
